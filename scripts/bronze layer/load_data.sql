@@ -1,3 +1,11 @@
+/*
+-- LOADING THE BRONZE LAYER
+=====================================================================================================
+
+-- Loading the bronze layer tables with the required data from the CRM and ERP sources available.
+
+*/
+
 CREATE OR REPLACE PROCEDURE bronze.load_bronze()
 LANGUAGE plpgsql
 AS $$
