@@ -43,7 +43,7 @@ BEGIN
         start_time := CURRENT_TIMESTAMP;
         
         COPY bronze.crm_cust_info
-        FROM 'C:/Users/mukes/OneDrive/Desktop/VSCode/data_warehouse_project/datasets/source_crm/cust_info.csv'
+        FROM 'C:/Users/mukes/OneDrive/Desktop/guided_data_warehouse_project/datasets/source_crm/cust_info.csv'
         WITH (FORMAT CSV, HEADER TRUE);
         
         -- Capture end time and calculate duration
@@ -63,7 +63,7 @@ BEGIN
         start_time := CURRENT_TIMESTAMP;
         
         COPY bronze.crm_prd_info
-        FROM 'C:/Users/mukes/OneDrive/Desktop/VSCode/data_warehouse_project/datasets/source_crm/prd_info.csv'
+        FROM 'C:/Users/mukes/OneDrive/Desktop/guided_data_warehouse_project/datasets/source_crm/prd_info.csv'
         WITH (FORMAT CSV, HEADER TRUE);
         
         -- Capture end time and calculate duration
@@ -83,7 +83,7 @@ BEGIN
         start_time := CURRENT_TIMESTAMP;
         
         COPY bronze.crm_sales_details
-        FROM 'C:/Users/mukes/OneDrive/Desktop/VSCode/data_warehouse_project/datasets/source_crm/sales_details.csv'
+        FROM 'C:/Users/mukes/OneDrive/Desktop/guided_data_warehouse_project/datasets/source_crm/sales_details.csv'
         WITH (FORMAT CSV, HEADER TRUE);
         
         -- Capture end time and calculate duration
@@ -109,7 +109,7 @@ BEGIN
         start_time := CURRENT_TIMESTAMP;
         
         COPY bronze.erp_cust_az12
-        FROM 'C:/Users/mukes/OneDrive/Desktop/VSCode/data_warehouse_project/datasets/source_erp/CUST_AZ12.csv'
+        FROM 'C:/Users/mukes/OneDrive/Desktop/guided_data_warehouse_project/datasets/source_erp/CUST_AZ12.csv'
         WITH (FORMAT CSV, HEADER TRUE);
         
         -- Capture end time and calculate duration
@@ -129,7 +129,7 @@ BEGIN
         start_time := CURRENT_TIMESTAMP;
         
         COPY bronze.erp_loc_a101
-        FROM 'C:/Users/mukes/OneDrive/Desktop/VSCode/data_warehouse_project/datasets/source_erp/LOC_A101.csv'
+        FROM 'C:/Users/mukes/OneDrive/Desktop/guided_data_warehouse_project/datasets/source_erp/LOC_A101.csv'
         WITH (FORMAT CSV, HEADER TRUE);
         
         -- Capture end time and calculate duration
@@ -149,7 +149,7 @@ BEGIN
         start_time := CURRENT_TIMESTAMP;
         
         COPY bronze.erp_px_cat_g1v2
-        FROM 'C:/Users/mukes/OneDrive/Desktop/VSCode/data_warehouse_project/datasets/source_erp/PX_CAT_G1V2.csv'
+        FROM 'C:/Users/mukes/OneDrive/Desktop/guided_data_warehouse_project/datasets/source_erp/PX_CAT_G1V2.csv'
         WITH (FORMAT CSV, HEADER TRUE);
         
         -- Capture end time and calculate duration
