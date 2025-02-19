@@ -5,7 +5,7 @@
 -- Creating the tables
 */
 
--- ERP Section
+-- CRM Section
 -- Cust Info Table
 DROP TABLE IF EXISTS bronze.crm_cust_info;
 CREATE TABLE bronze.crm_cust_info (
@@ -44,7 +44,7 @@ CREATE TABLE bronze.crm_sales_details (
     ,sls_price INT
 );
 
--- CRM Section
+-- ERP Section
 -- Customer Table
 DROP TABLE IF EXISTS bronze.erp_cust_az12;
 CREATE TABLE bronze.erp_cust_az12 (
